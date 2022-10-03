@@ -1,0 +1,17 @@
+{
+    "name": "jestjs",
+    "version": "1.0.0",
+    "description": "how use jestjs for backend and somethings frontend",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Huynh Truong",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.19.3",
+        "@babel/preset-env": "^7.19.3",
+        "babel-jest": "^29.1.2",
+        "jest": "^29.1.2"
+    }
+}
