@@ -4,7 +4,7 @@
     "description": "how use jestjs for backend and somethings frontend",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest --coverage"
     },
     "author": "Huynh Truong",
     "license": "MIT",
