@@ -1,9 +1,12 @@
-function generateFibonacci(n: number): number[] | [] {
+function generateFibonacci(n: number): number[] {
     if (n <= 0 || n >= 1000) return []
 
     const newNumberList: number[] = [0, 1]
+    let currentNumber = newNumberList[1]
     for (let i = 2; i < n; i++) {
         const newNum = newNumberList[i - 1] + newNumberList[i - 2]
+        currentNumber = newNum
+        if (currentNumber >= n) return newNumberList
         newNumberList.push(newNum)
     }
 

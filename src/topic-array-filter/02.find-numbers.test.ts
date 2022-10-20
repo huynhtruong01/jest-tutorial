@@ -2,7 +2,7 @@ function findNumbers(numberList: number[]): number[] {
     if (numberList.length <= 1) return []
 
     let newNumberList: number[] = []
-    for (let i = 0; i < numberList.length; i + 2) {
+    for (let i = 0; i < numberList.length; i += 2) {
         if (numberList[i] < numberList[i + 1]) newNumberList.push(numberList[i + 1])
     }
 
